@@ -58,11 +58,11 @@
           >Koushik Shuvo</a
         >’s design. Developed by
         <a
-          href="https://fictolab.vercel.app"
+          href="https://laurenv.me"
           target="_blank"
           rel="noreferrer"
           class="text-white/100 underline"
-          >@luveqz</a
+          >@larxn</a
         >.
       </p>
     </div>
