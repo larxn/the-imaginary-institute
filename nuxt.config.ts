@@ -30,4 +30,18 @@ export default defineNuxtConfig({
       },
     },
   },
+
+   vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        '@headlessui/vue',
+        '@vueuse/core',
+        'vue3-popper',
+      ]
+    }
+  },
+
+    compatibilityDate: '2025-07-15',
 })
