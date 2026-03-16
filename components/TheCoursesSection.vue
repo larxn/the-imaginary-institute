@@ -3,8 +3,7 @@ const courses = [
   {
     id: 1,
     title: 'Creative Writing Fundamentals: Narrative structures',
-    coverUrl:
-      'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/imaginary-orange%2Fcourse-01.png?alt=media',
+    coverUrl: '/img/courses/course-01.webp',
     teacherName: 'Elizabeth Goldberg',
     description:
       'Start with the basics of storytelling, character development, and plot structure.',
@@ -14,8 +13,7 @@ const courses = [
   {
     id: 2,
     title: 'Poetry Workshop',
-    coverUrl:
-      'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/imaginary-orange%2Fcourse-02.png?alt=media',
+    coverUrl: '/img/courses/course-02.webp',
     teacherName: 'Tom Castro',
     description:
       'Explore the world of poetry, from traditional forms to contemporary free verse.',
@@ -25,8 +23,7 @@ const courses = [
   {
     id: 3,
     title: 'Publishing and Marketing',
-    coverUrl:
-      'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/imaginary-orange%2Fcourse-03.png?alt=media',
+    coverUrl: '/img/courses/course-03.webp',
     teacherName: 'Shaelin Twain',
     description:
       'Get insights into the publishing industry, self-publishing, and marketing your work.',
@@ -36,8 +33,7 @@ const courses = [
   {
     id: 4,
     title: 'Screenwriting',
-    coverUrl:
-      'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/imaginary-orange%2Fcourse-04.png?alt=media',
+    coverUrl: '/img/courses/course-04.webp',
     teacherName: 'Jack Roth',
     description:
       'Dive into the art of screenwriting, from crafting dialogue to formatting scripts.',
@@ -47,8 +43,7 @@ const courses = [
   {
     id: 5,
     title: 'Nonfiction Writing',
-    coverUrl:
-      'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/imaginary-orange%2Fcourse-05.png?alt=media',
+    coverUrl: '/img/courses/course-05.webp',
     teacherName: 'Mieko Dasai',
     description:
       'Master the art of creative nonfiction, including memoirs, essays, and journalism.',
@@ -58,8 +53,7 @@ const courses = [
   {
     id: 6,
     title: 'Fundamentals of short story writing',
-    coverUrl:
-      'https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/imaginary-orange%2Fcourse-06.png?alt=media',
+    coverUrl: '/img/courses/course-06.webp',
     teacherName: 'James Haro',
     description:
       'Learn how to craft engaging narratives, develop characters, and build immersive worlds.',

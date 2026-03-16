@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const avatars = [
-  'user-01.png',
-  'user-02.png',
-  'user-03.png',
-  'user-04.png',
-  'user-05.png',
-  'user-06.png',
+  'user-01.webp',
+  'user-02.webp',
+  'user-03.webp',
+  'user-04.webp',
+  'user-05.webp',
+  'user-06.webp',
 ]
 </script>
 
@@ -37,7 +37,7 @@ const avatars = [
         >
           <img
             class="block w-full"
-            :src="`https://firebasestorage.googleapis.com/v0/b/fictolab.appspot.com/o/imaginary-orange%2F${avatar}?alt=media`"
+            :src="`/img/users/${avatar}`"
             alt=""
           />
         </div>
