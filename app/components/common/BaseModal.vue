@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onKeyStroke } from '@vueuse/core'
-import { MODALS_AND_MENUS } from '@/stores/modal'
+import { MODALS_AND_MENUS } from '@/app/stores/modal'
 
 const props = defineProps({
   name: {

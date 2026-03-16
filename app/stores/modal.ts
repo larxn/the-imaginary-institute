@@ -1,18 +1,11 @@
 import { defineStore } from 'pinia'
 import { getKeys } from '@/lib/utils/object'
 
-export const MODALS_AND_MENUS = {
-  'mobile-menu': false,
-  'sign-up': false,
-}
+export const MODALS_AND_MENUS = { 'mobile-menu': false, 'sign-up': false }
 
-export const useModalStore = defineStore({
-  id: 'modal-store',
-
+export const useModalStore = defineStore('modal-store', {
   state: () => {
-    return {
-      ...MODALS_AND_MENUS,
-    }
+    return { ...MODALS_AND_MENUS }
   },
 
   actions: {
